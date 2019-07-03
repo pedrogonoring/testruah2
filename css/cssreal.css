@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* CSS CELULARES */
+@media (max-width: 600px){
+	
+	/*SUMIR HEAD PC*/
+	#img-head-pc{
+		display:none;
+	}
+
+	/*BOTÃO MENU*/
+	.btn-menu{
+
+		background-color: #303030;
+		color: white;
+		font-size: 45px;
+		border-color: white;
+		border-radius: 60px;
+		width: 600px;
+		height: 95px;
+		font-family: sans-serif;
+		margin-left: 120px;
+		margin-top: 25px;
+		outline:none; /*REMOVE LINHA LARANJA*/
+	}
+
+	/*ESPAÇO BTN-MENU TOP*/
+	.btn-espaco{
+		margin-bottom: 80px;
+	}
+
+	/*ESPAÇO BTN-MENU BUTTON*/
+	.btn-sp{
+		margin-bottom: 170px;
+	}
+
+
+	/*TAMANHO DOS STORIES*/
+	.carrosel{
+		width: 832px;
+		margin-left: 0px;
+		margin-bottom: 210px;
+
+	}
+
+	/*TITULO STORIES*/
+	.stories-title{
+		font-size: 75px;
+		font-family: sans-serif;
+		font-weight: bold;
+		margin-left: 240px;
+		margin-bottom: 70px;
+		display: flex;
+
+	}
+
+	.icon-title{
+		display: flex;
+		width: 90px;
+		margin-right: 40px;
+		
+	}
+
+
+	.img-significa{
+		width: 842px;
+	}
+
+
+
+}/*FIM-MEDIA*/
+
+
+
+
+
+
+
+/* CSS TABLETES */
+@media (min-width: 601px){
+
+	/*SUMIR HEAD CELULAR*/
+	#img-head-cel{
+		display:none;
+	}
+
+
+
+}/*FIM-MEDIA*/
+
+
+
+
+
+
+
+/* CSS COMPUTADORES */
+@media (min-width: 1000px){
+	
+	/*SUMIR HEAD CELULAR*/
+	#img-head-cel{
+		display:none;
+	}
+
+
+
+}/*FIM-MEDIA*/

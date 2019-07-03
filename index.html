@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Ruah Blog</title>
+		<meta charset="utf-8">
+		
+		
+		<link href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" rel="stylesheet" type="text/css">
+		
+		<link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description" content="jQuery Responsive Carousel - Owl Carusel">
+    	<meta name="author" content="Bartosz Wojciechowski">
+		<meta name="keywords" content="HTML,CSS,JSON,JavaScript, jQuery, Responsive, Design, Owl, Carousel, Free">	
+		
+
+    	<!-- Owl Carousel Assets -->
+    	<link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    	<link href="owl-carousel/owl.theme.css" rel="stylesheet">
+
+    	<link rel="stylesheet" href="css/cssreal.css" type="text/css">
+
+
+	</head>
+	<body>
+
+		<!-- CENTRALIZADOR -->
+		<div align="center"> 
+			
+			<!-- IMAGEM HEAD (NOVIDADE) -->
+			<!-- CELULAR -->
+			<div>
+				<div id="img-head-cel" class="btn-espaco">
+					<img src="img/novopost/novo_celular.png">
+				</div>
+				<!-- PC-->	
+				<div id="img-head-pc">
+					<img src="img/novopost/novo_pc2.png">
+				</div>	
+			</div>
+		
+
+
+
+			<!-- BOTÕES MENU -->
+			<div class="btn-sp">
+				<button class="btn-menu">QUEM SOMOS</button>
+				<button class="btn-menu">POSTS</button>
+				<button class="btn-menu">AGENDA</button>
+
+			</div>	
+			
+
+			<!-- STORIES -->
+
+
+			<!-- TITULO -->
+			<div class="stories-title">
+				<img class="icon-title" src="img/icon/play-button.png">
+				<p>Stories</p> 
+				
+			</div>
+
+			<!-- CARROSSEL -->
+			<div class="carrosel" align="center">
+				<div class="owl-carousel owl-theme">
+				    <div class="item" class="stories">
+				    	<img src="img/stories/story.png">
+				    </div>
+				    <div class="item" class="stories">
+				    	<img src="img/stories/story.png">
+				    </div>
+				    <div class="item" class="stories">
+				    	<img src="img/stories/story.png">
+				    </div>
+				  
+				</div>
+
+			</div>
+
+
+
+			</div>	<!-- FIM CENTRALIZADOR -->
+
+
+			<!-- O QUE SIGNIFICA -->
+			<div>
+				<img class="img-significa" src="img/title/significa.png">
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+		
+
+		<script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript"></script>
+
+		<script src="OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+			$('.owl-carousel').owlCarousel({
+			    loop:true,
+			    margin:40,
+			    nav:true,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:3
+			        },
+			        1000:{
+			            items:5
+			        }
+			    }
+			})
+		</script>
+
+</body>
+</html>
